@@ -23,7 +23,7 @@ while True:
     if user == "R":
         os.system('cls')
         if ai == rock:
-            print(f"You chose:\n{hands.rock}\n\nAi chose:\n{hands.rock}\n{bcolors.YELLOW}It's a tie!{bcolors.DEFAULT}") #Visar vad du och ai valde och visar att det blev lika
+            print(f"You chose:\n{hands.rock}\n\nAi chose:\n{hands.rock}\n{bcolors.YELLOW}It's a tie!{bcolors.DEFAULT}") #Visar vad du och ai valde och visar att det blev lika. Hands.rock visar grafik för vilken hand spelaren och ai använde 
             ties += 1
             print(f"Wins: {wins} Ties: {ties} Losses: {losses} Rounds: {rounds}")# skriver ut hur många rundor, lika, vinster och förluster spelaren har
             print("""To continue playing, press either (R)ock, (P)aper or (S)cissors
