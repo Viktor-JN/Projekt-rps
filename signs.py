@@ -29,3 +29,20 @@ __ |¨¨|¨¨|¨¨|¨¨|
  /    ___/__|__|
 |    /         |
  \__SCISSORS___/{bcolors.DEFAULT}"""
+
+class start:
+   splash=f"""
+                    Welcome to{bcolors.RED}
+          ___           ___           ___     
+         /\  \         /\  \         /\  \    
+        /::\  \       /::\  \       /::\  \   
+       /:/\:\  \     /:/\:\  \     /:/\ \  \  
+      /::\~\:\  \   /::\~\:\  \   _\:\ ~\ \  \ 
+     /:/\:\ \:\__\ /:/\:\ \:\__\ /\ \:\ \ \__\.
+     \/_|::\/:/  / \/__\:\/:/  / \:\ \:\ \/__/
+        |:|::/  /       \::/  /   \:\ \:\__\  
+        |:|\/__/         \/__/     \:\/:/  /  
+        |:|  |                      \::/  /   
+         \|__|                       \/__/    
+{bcolors.GREEN}To begin playing, press either (R)ock, (P)aper or (S)cissors{bcolors.DEFAULT}
+                To quit press Q"""
